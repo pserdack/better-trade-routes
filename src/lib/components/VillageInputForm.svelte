@@ -98,6 +98,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    border: solid 2px green;
+    border-radius: 4px;
+    padding: 16px;
   }
 
   .span-4 {

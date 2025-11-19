@@ -23,7 +23,7 @@
 		max-width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
-    background: #79747E;
+    /*background: #79747E;*/
 	}
 	
 	nav {
