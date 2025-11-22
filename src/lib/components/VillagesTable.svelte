@@ -1,6 +1,5 @@
 ﻿<script lang="ts">
   
-  import ResourceIndicator from "$lib/components/ResourceIndicator.svelte";
   import { database } from "$lib/database.svelte";
   
 </script>
@@ -38,6 +37,7 @@
       <td>{village.consumption.clay}</td>
       <td>{village.consumption.iron}</td>
       <td>{village.consumption.crop}</td>
+      <td>{village.merchantCount}</td>
     </tr>
   {/each}
   </tbody>
