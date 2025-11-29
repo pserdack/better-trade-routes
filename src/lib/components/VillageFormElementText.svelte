@@ -33,6 +33,7 @@
     font-size: var(--text-size);
     height: 52px;
     width: var(--width, 240px);
+    box-sizing: border-box;
   }
 
   span.label {

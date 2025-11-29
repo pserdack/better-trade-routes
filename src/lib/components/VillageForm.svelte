@@ -43,45 +43,45 @@
 
 <div class="form_container">
   <div class="span-2">
-    <VillageFormElementText element_name="Village Name" bind:value={villageName} />
+    <VillageFormElementText elementName="Village Name" bind:value={villageName} />
   </div>
 
   <div class="coordinates-container span-2">
-    <VillageFormElementNumber element_name="X Coordinate" bind:value={villageCoordinatesX} --width="120px"/>
-    <VillageFormElementNumber element_name="Y Coordinate" bind:value={villageCoordinatesY} --width="120px"/>
+    <VillageFormElementNumber elementName="X Coordinate" bind:value={villageCoordinatesX} --width="120px"/>
+    <VillageFormElementNumber elementName="Y Coordinate" bind:value={villageCoordinatesY} --width="120px"/>
   </div>
 
   <div>
-    <VillageFormElementNumber element_name="Wood Production" bind:value={woodProduction} />
+    <VillageFormElementNumber elementName="Wood Production" bind:value={woodProduction} />
   </div>
   <div>
-    <VillageFormElementNumber element_name="Clay Production" bind:value={clayProduction}/>
+    <VillageFormElementNumber elementName="Clay Production" bind:value={clayProduction}/>
   </div>
   <div>
-    <VillageFormElementNumber element_name="Iron Production" bind:value={ironProduction}/>
+    <VillageFormElementNumber elementName="Iron Production" bind:value={ironProduction}/>
   </div>
   <div>
-    <VillageFormElementNumber element_name="Crop Production" bind:value={cropProduction}/>
+    <VillageFormElementNumber elementName="Crop Production" bind:value={cropProduction}/>
   </div>
 
   <div>
-    <VillageFormElementNumber element_name="Wood Consumption" bind:value={woodConsumption}/>
+    <VillageFormElementNumber elementName="Wood Consumption" bind:value={woodConsumption}/>
   </div>
   <div>
-    <VillageFormElementNumber element_name="Clay Consumption" bind:value={clayConsumption}/>
+    <VillageFormElementNumber elementName="Clay Consumption" bind:value={clayConsumption}/>
   </div>
   <div>
-    <VillageFormElementNumber element_name="Iron Consumption" bind:value={ironConsumption}/>
+    <VillageFormElementNumber elementName="Iron Consumption" bind:value={ironConsumption}/>
   </div>
   <div>
-    <VillageFormElementNumber element_name="Crop Consumption" bind:value={cropConsumption}/>
+    <VillageFormElementNumber elementName="Crop Consumption" bind:value={cropConsumption}/>
   </div>
   
   <div class="span-2">
-    <VillageFormElementNumber element_name="Warehouse Capacity" bind:value={warehouseCapacity}/>
+    <VillageFormElementNumber elementName="Warehouse Capacity" bind:value={warehouseCapacity}/>
   </div>
   <div class="span-2">
-    <VillageFormElementNumber element_name="Granary Capacity" bind:value={granaryCapacity}/>
+    <VillageFormElementNumber elementName="Granary Capacity" bind:value={granaryCapacity}/>
   </div>
   
   <div class="span-2"></div>

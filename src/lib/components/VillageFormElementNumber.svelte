@@ -1,9 +1,12 @@
 ﻿<script lang="ts">
-  let {element_name = "Element Name", value = $bindable()}: { element_name: string, value: number } = $props();
+  let {
+    elementName = "Element Name", 
+    value = $bindable()
+  }: { elementName: string, value: number } = $props();
 </script>
 
 <div class="input-field-container">
-  <span class="label">{element_name}</span>
+  <span class="label">{elementName}</span>
   <input 
       type="number" 
       placeholder="0"
@@ -29,6 +32,7 @@
     height: 52px;
     width: var(--width, 240px);
     text-align: right;
+    box-sizing: border-box;
   }
 
   span.label {
